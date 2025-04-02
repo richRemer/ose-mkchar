@@ -11,10 +11,9 @@ const {stdin: input, stdout: output} = process;
 const rl = readline.createInterface({input, output, completer});
 const availableClasses = {};
 
-for (const [name, Class] of Object.entries(classes)) {
+for (const Class of Object.values(classes)) {
     if (Class.isAvailable(character)) {
-        const displayName = Class.displayName || name;
-        availableClasses[displayName] = Class;
+        availableClasses[Class.displayName] = Class;
     }
 }
 
@@ -45,7 +44,6 @@ console.log();
 
 const className = await rl.question("Which class do you want to play? ");
 character[Class] = {...availableClasses[className]};
-character[Class].displayName = character[Class].displayName || className;
 
 do {
     character[HP] = d(character[Class].hitDie);
