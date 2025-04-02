@@ -1,0 +1,7 @@
+{
+  "name": "ose-mkchar",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": "./ose-mkchar.js",
+  "license": "MIT"
+}
