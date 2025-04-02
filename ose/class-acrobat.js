@@ -1,9 +1,14 @@
+import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 
 export const Acrobat = {
     advanced: true,
     prime: Dexterity,
     hitDie: 4,
+
+    canAdjustDown(ability) {
+        return ability === Strength ? false : undefined;
+    },
 
     isAvailable() {
         return true;

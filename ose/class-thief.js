@@ -4,6 +4,10 @@ export const Thief = {
     prime: Dexterity,
     hitDie: 4,
 
+    canAdjustDown(ability) {
+        return ability === Strength ? false : undefined;
+    },
+
     isAvailable() {
         return true;
     },
