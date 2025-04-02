@@ -1,7 +1,10 @@
 import Wisdom from "./ability-wisdom.js";
 
+export default Symbol("Druid");
+
 export const Druid = {
     advanced: true,
+    displayName: "Druid",
     prime: Wisdom,
     hitDie: 6,
 

@@ -1,6 +1,9 @@
 import Strength from "./ability-strength.js";
 
+export default Symbol("Fighter");
+
 export const Fighter = {
+    displayName: "Fighter",
     prime: Strength,
     hitDie: 8,
 

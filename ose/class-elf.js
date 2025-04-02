@@ -1,8 +1,11 @@
 import Strength from "./ability-strength.js";
 import Intelligence from "./ability-intelligence.js";
 
+export default Symbol("Elf");
+
 export const Elf = {
     demihuman: true,
+    displayName: "Elf",
     primes: [Strength, Intelligence],
     hitDie: 6,
 

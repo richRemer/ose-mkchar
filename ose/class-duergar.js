@@ -2,9 +2,12 @@ import Strength from "./ability-strength.js";
 import Constitution from "./ability-constitution.js";
 import Intelligence from "./ability-intelligence.js";
 
+export default Symbol("Duergar");
+
 export const Duergar = {
     advanced: true,
     demihuman: true,
+    displayName: "Duergar",
     prime: Strength,
     hitDie: 6,
 

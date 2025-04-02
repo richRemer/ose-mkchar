@@ -1,8 +1,11 @@
 import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 
+export default Symbol("Acrobat");
+
 export const Acrobat = {
     advanced: true,
+    displayName: "Acrobat",
     prime: Dexterity,
     hitDie: 4,
 

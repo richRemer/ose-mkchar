@@ -1,6 +1,9 @@
 import Wisdom from "./ability-wisdom.js";
 
+export default Symbol("Cleric");
+
 export const Cleric = {
+    displayName: "Cleric",
     prime: Wisdom,
     hitDie: 6,
 

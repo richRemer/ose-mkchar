@@ -2,8 +2,11 @@ import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 import Constitution from "./ability-constitution.js";
 
+export default Symbol("Barbarian");
+
 export const Barbarian = {
     advanced: true,
+    displayName: "Barbarian",
     primes: [Strength, Constitution],
     hitDie: 8,
 

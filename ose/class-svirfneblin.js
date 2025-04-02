@@ -1,9 +1,12 @@
 import Strength from "./ability-strength.js";
 import Constitution from "./ability-constitution.js";
 
+export default Symbol("Svirfneblin");
+
 export const Svirfneblin = {
     advanced: true,
     demihuman: true,
+    displayName: "Svirfneblin",
     prime: Strength,
     hitDie: 6,
 

@@ -1,6 +1,8 @@
 import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 
+export default Symbol("Half-Orc");
+
 export const HalfOrc = {
     advanced: true,
     demihuman: true,

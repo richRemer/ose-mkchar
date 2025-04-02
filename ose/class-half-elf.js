@@ -3,6 +3,8 @@ import Constitution from "./ability-constitution.js";
 import Intelligence from "./ability-intelligence.js";
 import Charisma from "./ability-charisma.js";
 
+export default Symbol("Half-Elf");
+
 export const HalfElf = {
     advanced: true,
     demihuman: true,

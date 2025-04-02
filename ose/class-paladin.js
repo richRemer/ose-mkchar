@@ -2,8 +2,11 @@ import Strength from "./ability-strength.js";
 import Wisdom from "./ability-wisdom.js";
 import Charisma from "./ability-charisma.js";
 
+export default Symbol("Paladin");
+
 export const Paladin = {
     advanced: true,
+    displayName: "Paladin",
     primes: [Strength, Wisdom],
     hitDie: 8,
 

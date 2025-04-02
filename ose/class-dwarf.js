@@ -1,8 +1,11 @@
 import Strength from "./ability-strength.js";
 import Constitution from "./ability-constitution.js";
 
+export default Symbol("Dwarf");
+
 export const Dwarf = {
     demihuman: true,
+    displayName: "Dwarf",
     prime: Strength,
     hitDie: 8,
 

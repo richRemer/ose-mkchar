@@ -2,9 +2,12 @@ import Dexterity from "./ability-dexterity.js";
 import Constitution from "./ability-constitution.js";
 import Intelligence from "./ability-intelligence.js";
 
+export default Symbol("Gnome");
+
 export const Gnome = {
     advanced: true,
     demihuman: true,
+    displayName: "Gnome",
     primes: [Dexterity, Intelligence],
     hitDie: 4,
 

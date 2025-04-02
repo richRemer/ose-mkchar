@@ -2,8 +2,11 @@ import Strength from "./ability-strength.js";
 import Constitution from "./ability-constitution.js";
 import Wisdom from "./ability-wisdom.js";
 
+export default Symbol("Ranger");
+
 export const Ranger = {
     advanced: true,
+    displayName: "Ranger",
     prime: Strength,
     hitDie: 8,
 

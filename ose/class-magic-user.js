@@ -1,5 +1,7 @@
 import Intelligence from "./ability-intelligence.js";
 
+export default Symbol("Magic-User");
+
 export const MagicUser = {
     displayName: "Magic-User",
     prime: Intelligence,

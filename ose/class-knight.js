@@ -2,8 +2,11 @@ import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 import Constitution from "./ability-constitution.js";
 
+export default Symbol("Knight");
+
 export const Knight = {
     advanced: true,
+    displayName: "Knight",
     prime: Strength,
     hitDie: 8,
 

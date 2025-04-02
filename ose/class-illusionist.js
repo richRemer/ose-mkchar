@@ -1,8 +1,11 @@
 import Dexterity from "./ability-dexterity.js";
 import Intelligence from "./ability-intelligence.js";
 
+export default Symbol("Illusionist");
+
 export const Illusionist = {
     advanced: true,
+    displayName: "Illusionist",
     prime: Intelligence,
     hitDie: 4,
 

@@ -1,7 +1,10 @@
 import Dexterity from "./ability-dexterity.js";
 
+export default Symbol("Assassin");
+
 export const Assassin = {
     advanced: true,
+    displayName: "Assassin",
     prime: Dexterity,
     hitDie: 4,
 

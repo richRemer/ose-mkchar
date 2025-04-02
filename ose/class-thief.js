@@ -1,6 +1,9 @@
 import Dexterity from "./ability-dexterity.js";
 
+export default Symbol("Thief");
+
 export const Thief = {
+    displayName: "Thief",
     prime: Dexterity,
     hitDie: 4,
 

@@ -2,8 +2,11 @@ import Strength from "./ability-strength.js";
 import Dexterity from "./ability-dexterity.js";
 import Constitution from "./ability-constitution.js";
 
+export default Symbol("Halfling");
+
 export const Halfling = {
     demihuman: true,
+    displayName: "Halfling",
     primes: [Strength, Dexterity],
     hitDie: 6,
 

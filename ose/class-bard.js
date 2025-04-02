@@ -2,8 +2,11 @@ import Dexterity from "./ability-dexterity.js";
 import Intelligence from "./ability-intelligence.js";
 import Charisma from "./ability-charisma.js";
 
+export default Symbol("Bard");
+
 export const Bard = {
     advanced: true,
+    displayName: "Bard",
     prime: Charisma,
     hitDie: 6,
 

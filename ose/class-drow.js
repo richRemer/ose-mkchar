@@ -2,9 +2,12 @@ import Strength from "./ability-strength.js";
 import Intelligence from "./ability-intelligence.js";
 import Wisdom from "./ability-wisdom.js";
 
+export default Symbol("Drow");
+
 export const Drow = {
     advanced: true,
     demihuman: true,
+    displayName: "Drow",
     primes: [Strength, Wisdom],
     hitDie: 6,
 
