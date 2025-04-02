@@ -27,16 +27,16 @@ console.log("  Charisma     ", character[abilities.Charisma]);
 console.log("");
 console.log("Your character meets the requirements for the following classes:");
 
-for (const [name, Class] of Object.entries(availableClasses)) {
+for (const Class of Object.values(availableClasses)) {
     const bonus = Class.xpBonus(character);
-    options.push(name);
+    options.push(Class.displayName);
 
     if (bonus > 0) {
-        console.log(`  ${name} (+${bonus}%)`);
+        console.log(`  ${Class.displayName} (+${bonus}%)`);
     } else if (bonus < 0) {
-        console.log(`  ${name} (${bonus}%)`);
+        console.log(`  ${Class.displayName} (${bonus}%)`);
     } else {
-        console.log(`  ${name}`);
+        console.log(`  ${Class.displayName}`);
     }
 }
 
